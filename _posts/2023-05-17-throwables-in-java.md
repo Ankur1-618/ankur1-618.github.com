@@ -1,5 +1,5 @@
 ---
-date: 2020-05-17 15:40:00 +0530
+date: 2023-05-17 15:40:00 +0530
 layout: post
 title: Throwables in Java
 subtitle: Let's find out the secret behind Errors, Exceptions and Throwables in Java and its Hierarchy.
