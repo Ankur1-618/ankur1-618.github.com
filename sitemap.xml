@@ -11,7 +11,7 @@ layout: null
 
     {% for page in site.pages %}
         <url>
-            <loc>https://foolchauhan.github.io{{ page.url }}</loc>
+            <loc>https://ankur1-618.github.io{{ page.url }}</loc>
             {% if page.layout == 'main' %}
                 <changefreq>weekly</changefreq>
                 <priority>1</priority>
@@ -24,7 +24,7 @@ layout: null
     {% endfor %}
     {% for post in site.posts %}
         <url>
-            <loc>https://foolchauhan.github.io{{ post.url }}</loc>
+            <loc>https://ankur1-618.github.io{{ post.url }}</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
@@ -32,7 +32,7 @@ layout: null
     {% endfor %}
     {% for author in site.authors %}
         <url>
-            <loc>https://foolchauhan.github.io{{ author.url }}</loc>
+            <loc>https://ankur1-618.github.io{{ author.url }}</loc>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
         </url>
