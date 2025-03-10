@@ -1,7 +1,7 @@
 ---
 date: 2024-11-05 15:40:00 +0530
 layout: post
-title: Mastering Java TreeSet: An In-Depth Guide 
+title: Mastering Java TreeSet - An In Depth Guide 
 subtitle: What is java TreeSet
 description: Java Collections - TreeSet
 image: /assets/img/codingimgs/LRU-cache-implementation.jpg
