@@ -4,8 +4,8 @@ layout: post
 title: Mastering Java TreeSet - An In Depth Guide 
 subtitle: What is java TreeSet
 description: Java Collections - TreeSet
-image: /assets/img/codingimgs/LRU-cache-implementation.jpg
-optimized_image: /assets/img/codingimgs/LRU-cache-implementation.jpg
+image: /assets/img/java-treeset.jpg
+optimized_image: /assets/img/java-treeset.jpg
 category: java
 tags:
   - java
