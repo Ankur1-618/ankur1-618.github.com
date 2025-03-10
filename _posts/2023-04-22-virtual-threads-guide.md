@@ -1,5 +1,5 @@
 ---
-date: 2023-04-23 00:30:00 +0530
+date: 2023-04-22 00:30:00 +0530
 layout: post
 title: Project loom - Virtual Threads
 subtitle: Introduction to virtual threads and project loom.
