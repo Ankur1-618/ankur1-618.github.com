@@ -9,7 +9,7 @@ github_username: Ankur1-618
 # facebook_username: thiagorossener
 # twitter_username: thiagorossener
 # instagram_username: thiagorossener
-linkedin_username: ankurmalviya1618
+linkedin_username: ankur-malviya-39724756
 # medium_username: thiagorossener
 ---
 
