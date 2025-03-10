@@ -16,7 +16,7 @@ tags:
   - apache
   - bigdata
   - hdfs
-author: chetanchauhan
+author: ankurmalviya1618
 ---
 
 # Study Guide: Comparing Apache Hive vs. Apache Impala

@@ -11,7 +11,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["/Users/chetan_mac/Downloads/algo-005"]
+            "args": ["/Users/Ankur1-618/Downloads/algo-005"]
         }
     ]
 }
