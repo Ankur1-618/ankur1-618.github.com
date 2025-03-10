@@ -4,8 +4,8 @@ layout: post
 title: Immutable Class in Java
 subtitle: Immutable objects are instances whose state doesn’t change after it has been initialized.
 description: Today we will learn how to create an immutable class in Java. Immutable objects are instances whose state doesn’t change after it has been initialized.
-image: /assets/img/codingimgs/immutable-class-in-java.jpg
-optimized_image: /assets/img/codingimgs/immutable-class-in-java.jpg
+image: /assets/img/codingimgs/immutable-class-in-java1.jpg
+optimized_image: /assets/img/codingimgs/immutable-class-in-java1.jpg
 category: code
 tags:
   - coding
@@ -15,26 +15,31 @@ author: ankurmalviya1618
 # Immutable Class in Java
 
 ## Introduction
-Today we will learn how to create an immutable class in Java. Immutable objects are instances whose state doesn’t change after it has been initialized.
-
-String is a good example for Immutable Class in Java. All wrapper classes in java.lang are immutable – String, Integer, Boolean, Character, Byte, Short, Long, Float, Double, BigDecimal, BigInteger
+In this post, we'll explore how to create an **immutable class** in Java. Immutable objects are instances whose state doesn’t change once they’re initialized. A classic example is the `String` class, and all wrapper classes in `java.lang`—like `Integer`, `Boolean`, `Character`, `Byte`, `Short`, `Long`, `Float`, `Double`, `BigDecimal`, and `BigInteger`—are immutable as well.
 
 ## Properties
-* An immutable class is good for caching purpose because you don’t need to worry about the value changes. 
-* Immutable class is inherently thread-safe, so you don’t need to worry about thread safety in case of multi-threaded environment.
-* The references to the immutable objects can be easily shared or cached without having to copy or clone them as there state can not be changed ever after construction.
-* The Immutable Class can be used as Keys of a **map** and values of  a **Set**
+- **Caching**: Immutable objects are ideal for caching because their values never change.
+- **Thread-Safety**: They’re inherently thread-safe, removing the need for synchronization in multi-threaded environments.
+- **Shared References**: References to immutable objects can be easily shared or cached without concerns about value modifications.
+- **Map/Set Usage**: Immutable objects can serve as map keys or set values since they won’t change after creation.
 
-## How to make an immutable class
-There are no specific rules to create immutable objects, the idea is to restrict the access of the fields of a class after initialization.
+## How to Make an Immutable Class
+There aren’t strict language-enforced rules for immutability, but the goal is to prevent modifications to a class’s fields after construction. Consider the following steps:
 
-To create a Immutable Class, we can follow the following steps :-
-1. Declare the class as **final** so it can’t be extended.
-2. Make all fields **private** so that direct access is not allowed.
-3. Don’t provide setter methods for variables
-4. Make all mutable fields **final** so that it’s value can be assigned only once.
-5. Initialize all the fields via a constructor performing **deep copy**.
-6. Perform cloning of objects in the getter methods to return a copy rather than returning the actual object reference.
+1. **Mark the Class as `final`**  
+   Prevent extension by declaring the class as `final`.
+2. **Use Private Fields**  
+   Keep fields `private` to restrict direct access.
+3. **No Setters**  
+   Omit setter methods to disallow changes to field values.
+4. **Use `final` Fields**  
+   Mark mutable fields as `final` so their values can only be assigned once.
+5. **Initialize via Constructor (Deep Copy)**  
+   Assign values to all fields in the constructor. If a field is a mutable object, perform a deep copy to avoid referencing external mutable objects.
+6. **Clone Objects in Getters**  
+   When returning mutable objects, return a copy (clone) instead of the original reference.
+
+By following these guidelines, you can ensure that your Java class remains immutable.
 
 ```java
 import java.util.HashMap;
