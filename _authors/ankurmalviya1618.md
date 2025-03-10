@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/profile2.gif
+photo: /assets/img/uploads/profile3.gif
 name: ankurmalviya1618
 display_name: Ankur Malviya
 position: Chief Editor
