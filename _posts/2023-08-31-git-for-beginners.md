@@ -13,78 +13,69 @@ tags:
 author: ankurmalviya1618
 my_prop: 'nil'
 ---
-<h1 style="text-align:center;"> 
-What is GIT
-</h1>
-Git is a distributed revision control and source code management system with an emphasis on speed.
+# What is GIT
 
-Git was initially designed and developed by Linus Torvalds for Linux kernel development.
+Git is a distributed revision control and source code management system with an emphasis on speed. It was initially designed and developed by Linus Torvalds for Linux kernel development.
 
-<h3>Version Control System</h3>
-<strong>Version Control System (VCS)</strong> is a software that helps software developers to work together and maintain a complete history of their work.
-<ul>
-    <li>Allows developers to work simultaneously.</li>
-    <li>Does not allow overwriting each other’s changes.</li>
-    <li>Maintains a history of every version.</li>
-</ul>
-There are two types of <strong>VCS</strong> :-
-<ul>
-    <li>Centralized version control system (CVCS).</li>
-    <li>Distributed/Decentralized version control system (DVCS).</li>
-</ul>
+## Version Control System
 
-<h3>Advantages of Git</h3>
-<ul>
-    <li><i>Free and open source</i></li>
-    Git is released under GPL’s open source license.
-    <li><i>Fast and small</i></li>
-    As most of the operations are performed locally, it gives a huge benefit in terms of speed. 
-    Git does not rely on the central server; that is why, there is no need to interact with the remote server for every operation. 
-    The core part of Git is written in C, which avoids runtime overheads associated with other high-level languages. 
-    Though Git mirrors entire repository, the size of the data on the client side is small.
-    <li><i>Implicit backup</i></li>
-    <li><i>Security</i></li>
-    Git uses a common cryptographic hash function called secure hash function (SHA1), to name and identify objects within its database. 
-    Every file and commit is check-summed and retrieved by its checksum at the time of checkout.
-    <li><i>No need of powerful hardware</i></li>
-    In case of CVCS, the central server needs to be powerful enough to serve requests of the entire team.
-    In case of DVCS, developers don’t interact with the server unless they need to push or pull changes.
-    <li><i>Easier branching</i></li>
-    CVCS uses cheap copy mechanism, If we create a new branch, it will copy all the codes to the new branch, so it is time-consuming and not efficient. 
-    Also, deletion and merging of branches in CVCS is complicated and time-consuming. 
-    But branch management with Git is very simple. It takes only a few seconds to create, delete, and merge branches.
-</ul>
+**Version Control System (VCS)** is software that helps developers work together while maintaining a complete history of their work.
 
-<h3>Basic Workflow of GIT</h3>
-<strong>Step 1. </strong> Modify/Add/Delete a file in the working area.<br>
-<strong>Step 2. </strong> Add these files to the staging area to be tracked(same as ade commit)<br>
-<strong>Step 3. </strong> Commit these files in the local repository with a message.<br>
-<strong>Step 4. </strong> Push these changes to remote repository (same as ade mergetrans)<br>
+- Allows developers to work simultaneously.
+- Prevents overwriting each other’s changes.
+- Maintains a history of every version.
 
-<img src="/assets/img/Git_basic_operations.png" alt="Git Basic Operations Image">
+There are two types of **VCS**:
+- Centralized version control system (CVCS).
+- Distributed/Decentralized version control system (DVCS).
 
-``` bash
-# adds file to the staging area
-[bash]$ git add sort.c
+## Advantages of Git
+
+- *Free and open source*  
+  Git is released under GPL’s open source license.
+- *Fast and small*  
+  Most operations are performed locally, which makes Git fast. It doesn't depend on a central server for every operation, and its core is written in C to avoid runtime overhead. Even though Git mirrors the entire repository, the client-side data footprint is small.
+- *Implicit backup*
+- *Security*  
+  Git uses the SHA1 cryptographic hash function to name and identify objects within its database. Every file and commit is checksummed, ensuring data integrity at checkout.
+- *No need for powerful hardware*  
+  In a CVCS, the central server must be powerful enough to serve all team requests. With DVCS, developers interact with the server only when pushing or pulling changes.
+- *Easier branching*  
+  In CVCS, creating a new branch involves copying all the code, which can be time-consuming and inefficient. In contrast, Git allows simple, quick branch creation, deletion, and merging.
+
+## Basic Workflow of Git
+
+1. **Step 1:** Modify/Add/Delete a file in the working area.
+2. **Step 2:** Add these files to the staging area to be tracked.
+3. **Step 3:** Commit these files in the local repository with a message.
+4. **Step 4:** Push these changes to the remote repository.
+
+![Git Basic Operations Image](/assets/img/Git_basic_operations.png)
+
+```bash
+# Adds file to the staging area
+git add sort.c
 
 # First commit
-[bash]$ git commit –m “Added sort operation”
+git commit -m "Added sort operation"
 
-# adds file to the staging area
-[bash]$ git add search.c
+# Adds another file to the staging area
+git add search.c
 
 # Second commit
-[bash]$ git commit –m “Added search operation”
+git commit -m "Added search operation"
 ```
 
-<h3>Git - Lifecycle</h3>
-<strong>General workflow is as follows :: </strong>
-<ul>
-    <li>Clone the Git repository as a working copy.</li>
-    <li>Modify the working copy by adding/editing files.</li>
-    <li>If necessary, we can also update the working copy by taking other developer's changes.</li>
-    <li>Review the changes before commit.</li>
-    <li>Commit changes. If everything is fine, then you push the changes to the repository.</li>
-    <li>After committing, if something is wrong, then you correct the last commit and push the changes to the repository.</li>
-</ul>
+## Git - Lifecycle
+
+### General workflow is as follows:
+
+- Clone the Git repository to create a working copy.
+- Modify the working copy by adding or editing files.
+- Update your working copy with changes from other developers if necessary.
+- Review changes before committing.
+- Commit your changes, and if everything is fine, push them to the repository.
+- If needed, correct the last commit and push the revised changes to the repository.
+
+
 
