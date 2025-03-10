@@ -1,5 +1,5 @@
 ---
-date: 2024-11-05 15:40:00 +0530
+date: 2024-01-05 15:40:00 +0530
 layout: post
 title: Mastering Java TreeSet - An In Depth Guide 
 subtitle: What is java TreeSet
