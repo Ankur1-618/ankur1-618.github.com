@@ -168,3 +168,5 @@ public class Main {
 
 ## Conclusion
 Implementing an LRU Cache in Java requires a good understanding of data structures to ensure efficient operations. By combining a HashMap and a DoublyLinkedList, we achieve constant time complexity for both get and put operations, ensuring optimal performance.
+
+> Happy Coding :)

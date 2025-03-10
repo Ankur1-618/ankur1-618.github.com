@@ -12,7 +12,6 @@ tags:
   - java
   - spring
   - spring boot
-  - QnA
 author: ankurmalviya1618
 my_prop: 'nil'
 ---
@@ -76,7 +75,7 @@ public class PaypalPaymentService implements PaymentService {
 }
 ```
 
-Now, in a consumer class, you can use both @Autowired and @Qualifier to specify which implementation to inject:
+Now, in a consumer class, you can use both `@Autowired` and `@Qualifier` to specify which implementation to inject:
 
 ```java
 @Component
