@@ -9,6 +9,7 @@ optimized_image: /assets/img/java-treeset.jpg
 category: java
 tags:
   - java
+  - collections
 author: ankurmalviya1618
 ---
 
