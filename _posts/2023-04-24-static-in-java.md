@@ -1,5 +1,5 @@
 ---
-date: 2020-04-24 15:35:00 +0530
+date: 2023-04-24 15:35:00 +0530
 layout: post
 title: Static in Java
 subtitle: In Java, static keyword is mainly used for memory management.

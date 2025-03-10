@@ -1,5 +1,5 @@
 ---
-date: 2020-08-31 00:30:00 +0530
+date: 2023-08-31 00:30:00 +0530
 layout: post
 title: GIT for Beginners
 subtitle: Git - The Open Source Version Control System from Linus Torvalds.

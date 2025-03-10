@@ -1,5 +1,5 @@
 ---
-date: 2021-05-15 00:30:00 +0530
+date: 2024-05-15 00:30:00 +0530
 layout: post
 title: Spring Interview Questions - Part 1
 subtitle: A list of intrerview questions asked in interviews, collected by me.

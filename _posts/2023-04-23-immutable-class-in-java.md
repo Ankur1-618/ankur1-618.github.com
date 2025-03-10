@@ -1,5 +1,5 @@
 ---
-date: 2020-04-23 14:30:00 +0530
+date: 2023-04-23 14:30:00 +0530
 layout: post
 title: Immutable Class in Java
 subtitle: Immutable objects are instances whose state doesn’t change after it has been initialized.
