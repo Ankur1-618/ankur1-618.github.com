@@ -4,12 +4,12 @@ layout: post
 title: How to Meditate - Beginner's Guide
 subtitle: Just 10 minutes of meditation a day can have huge physical and mental benefits.
 description: Meditation - Best exercise for keeping a healthy mind
-image: /assets/img/how-to-meditate.jpg
-optimized_image: /assets/img/how-to-meditate.jpg
-category: life
+image: /assets/img/virtual-threads.jpg
+optimized_image: /assets/img/virtual-threads.jpg
+category: java
 tags:
-  - life
-  - tips
+  - java
+  - threads
 author: ankurmalviya1618
 my_prop: 'nil'
 ---
