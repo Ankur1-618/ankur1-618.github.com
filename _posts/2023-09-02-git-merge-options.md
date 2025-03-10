@@ -51,7 +51,7 @@ public class EagerSingleton {
 ```
 
 ### Pros:
-✅ Thread-safe without synchronization
+✅ Thread-safe without synchronization <br>
 ✅ Simple and easy to implement
 
 ### Cons:
@@ -86,7 +86,7 @@ public class LazySingleton {
 ```
 
 ### Pros:
-✅ Thread-safe without major performance issues
+✅ Thread-safe without major performance issues <br>
 ✅ Instance is created only when needed
 
 ### Cons:
@@ -115,8 +115,8 @@ public class StaticInnerSingleton {
 ```
 
 ### Pros:
-✅ Thread-safe without synchronization
-✅ Lazy loading (instance is created only when getInstance() is called)
+✅ Thread-safe without synchronization <br>
+✅ Lazy loading (instance is created only when getInstance() is called) <br>
 ✅ Simple and efficient
 
 ### Cons:
@@ -147,8 +147,8 @@ EnumSingleton.INSTANCE.showMessage();
 ```
 
 ### Pros:
-✅ Thread-safe without synchronization
-✅ Serialization-safe by default
+✅ Thread-safe without synchronization <br>
+✅ Serialization-safe by default <br>
 ✅ Reflection-safe (prevents instantiation via reflection)
 
 ### Cons:
